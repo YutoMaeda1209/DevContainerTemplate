@@ -4,5 +4,8 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ../..:/workspaces:cached
+      - type: bind
+        source: "../"
+        target: "/workspace"
+        consistency: cached
     command: sleep infinity
