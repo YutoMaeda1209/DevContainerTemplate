@@ -15,10 +15,11 @@ This project adopts an "Issue-Driven" development approach. Issue-Driven means t
 ## About Commits
 
 - Each commit should contain only one feature addition or bug fix.
-- The first line of the commit message should follow the format `{emoji} {verb}: {summary}`. Refer to [gitmoji.dev](https://gitmoji.dev/) for emojis.
-  - `✨ Add: user profile page`
-  - `🐛 Fix: login bug`
-  - `📝 Update: README.md`
+- Commit with no syntax errors.
+- The first line of the commit message should follow the format `{verb} {summary}`.
+  - `Add user profile page`
+  - `Fix login bug`
+  - `Update README.md`
 - The second line of the commit message should describe the details of the commit in English.
 
 ## Branch Strategy

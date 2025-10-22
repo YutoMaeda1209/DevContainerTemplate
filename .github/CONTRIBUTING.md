@@ -15,10 +15,11 @@
 ## コミットについて
 
 - 1 コミットにつき１つの機能追加またはバグ修正だけ含めてください。
-- コミットメッセージ１行目は `{emoji} {verb}: {summary}` の形式で記述してください。絵文字は[gitmoji.dev](https://gitmoji.dev/)を参照してください。
-  - `✨ Add: user profile page`
-  - `🐛 Fix: login bug`
-  - `📝 Update: README.md`
+- 文法エラーが無い状態でコミットしてください。
+- コミットメッセージ１行目は `{verb} {summary}` の形式で記述してください。
+  - `Add user profile page`
+  - `Fix login bug`
+  - `Update README.md`
 - コミットメッセージ２行目はそのコミットの詳細を日本語で記述してください。
 
 ## ブランチ戦略
