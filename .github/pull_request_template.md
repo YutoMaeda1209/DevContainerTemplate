@@ -5,8 +5,8 @@
 
 ## 関連Issue / Related Issue(s)
 <!-- 関連するIssueを記載してください。 -->
-<!-- Link any related issues (e.g., Fixes #123). -->
-- 例: Fixes #123
+<!-- Link any related issues. -->
+- 例: Close #123
 
 ## 変更内容 / Changes
 <!-- 変更内容を箇条書きで記載してください。 -->
