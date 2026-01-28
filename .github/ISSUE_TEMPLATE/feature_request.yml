@@ -33,8 +33,6 @@ body:
       description: 提案内容を確認してください。
       options:
         - label: 提案内容が既存の機能と重複していないことを確認しました。
-          value: duplicate_check
         - label: 提案内容が具体的で明確であることを確認しました。
-          value: clarity_check
     validations:
       required: true

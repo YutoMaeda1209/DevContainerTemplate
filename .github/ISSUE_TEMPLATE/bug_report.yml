@@ -56,10 +56,7 @@ body:
       description: バグ報告前に以下の項目を確認してください。
       options:
         - label: 各項目について、詳しく記入しました。
-          value: detailed_information
         - label: 最新バージョンで同じ問題が発生するか確認しました。
-          value: latest_version
         - label: 既に報告されているバグではないか確認しました。
-          value: existing_issue
     validations:
       required: true
