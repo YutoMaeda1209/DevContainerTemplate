@@ -15,8 +15,8 @@ body:
       description: 新しい機能や改善点の内容を記入してください。
       placeholder: |
         設定画面にダークモードの切り替えオプションを追加する。
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: benefits
     attributes:
@@ -24,8 +24,8 @@ body:
       description: 提案する機能や改善点の利点を記入してください。
       placeholder: |
         ユーザーが夜間にアプリを使用する際の目の疲れを軽減できる。
-      validations:
-        required: true
+    validations:
+      required: true
   - type: checkboxes
     id: check_list
     attributes:
@@ -36,5 +36,5 @@ body:
           value: duplicate_check
         - label: 提案内容が具体的で明確であることを確認しました。
           value: clarity_check
-      validations:
-        required: true
+    validations:
+      required: true

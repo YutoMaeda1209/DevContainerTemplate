@@ -15,8 +15,8 @@ body:
       description: Describe the feature or improvement you are proposing.
       placeholder: |
         Add a dark mode toggle to the settings screen.
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: benefits
     attributes:
@@ -24,8 +24,8 @@ body:
       description: Explain the benefits of this change.
       placeholder: |
         Reduces eye strain for users browsing at night.
-      validations:
-        required: true
+    validations:
+      required: true
   - type: checkboxes
     id: check_list
     attributes:
@@ -36,5 +36,5 @@ body:
           value: duplicate_check
         - label: The proposal is specific and clearly described.
           value: clarity_check
-      validations:
-        required: true
+    validations:
+      required: true
