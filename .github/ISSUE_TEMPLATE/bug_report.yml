@@ -15,8 +15,8 @@ body:
       description: バグの内容を詳しく記入してください。スクリーンショットやログがあれば添付してください。
       placeholder: |
         ボタンを押したときにアプリがクラッシュする。
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: expected_behavior
     attributes:
@@ -24,8 +24,8 @@ body:
       description: 期待する動作を記入してください。
       placeholder: |
         ボタンを押すと設定画面が表示される。
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: steps_to_reproduce
     attributes:
@@ -36,8 +36,8 @@ body:
         2. ホーム画面で「設定」ボタンを押す
         3. 「通知」セクションに移動する
         4. アプリがクラッシュする
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: environment
     attributes:
@@ -47,8 +47,8 @@ body:
         - OS: Windows 10
         - ブラウザ: Chrome 89.0.4389.90
         - アプリバージョン: 1.2.3
-      validations:
-        required: true
+    validations:
+      required: true
   - type: checkboxes
     id: check_list
     attributes:
@@ -61,5 +61,5 @@ body:
           value: latest_version
         - label: 既に報告されているバグではないか確認しました。
           value: existing_issue
-      validations:
-        required: true
+    validations:
+      required: true

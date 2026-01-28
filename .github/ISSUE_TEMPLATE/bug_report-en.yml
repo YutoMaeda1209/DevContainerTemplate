@@ -15,8 +15,8 @@ body:
       description: Describe the bug in detail. Include screenshots or logs if available.
       placeholder: |
         The app crashes when I click the button.
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: expected_behavior
     attributes:
@@ -24,8 +24,8 @@ body:
       description: Describe what you expected to happen.
       placeholder: |
         Clicking the button should open the settings screen.
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: steps_to_reproduce
     attributes:
@@ -36,8 +36,8 @@ body:
         2. Go to the home screen
         3. Click the "Settings" button
         4. App crashes
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: environment
     attributes:
@@ -47,8 +47,8 @@ body:
         - OS: Windows 10
         - Browser: Chrome 89.0.4389.90
         - App version: 1.2.3
-      validations:
-        required: true
+    validations:
+      required: true
   - type: checkboxes
     id: check_list
     attributes:
@@ -61,5 +61,5 @@ body:
           value: latest_version
         - label: I have checked that this issue has not already been reported.
           value: existing_issue
-      validations:
-        required: true
+    validations:
+      required: true
