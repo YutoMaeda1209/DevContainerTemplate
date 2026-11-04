@@ -1,59 +1,57 @@
-[日本語 (JA) / [English (EN)](/.github/CONTRIBUTING-en.md)]
+# Contribution Guidelines
 
-# コントリビューションガイドライン
+Please follow these guidelines when contributing, such as reporting bugs, proposing new features, or improving documentation.
 
-バグ報告、新機能の提案、ドキュメントの改善など、コントリビュートの際は以下のガイドラインに従ってください。
+## About Issue-Driven Development
 
-## Issue ドリブン開発について
+This project adopts an "Issue-Driven" development approach. Issue-Driven means that all tasks, including bug fixes, new features, and documentation improvements, are managed as GitHub Issues and work is carried out on a per-Issue basis. This clarifies the purpose, background, and progress of each task, facilitating smooth information sharing and reviews within the team.
 
-本プロジェクトは「Issue ドリブン」開発手法を採用しています。Issue ドリブンとは、バグ修正・新機能追加・ドキュメント改善など、すべての作業を GitHub Issue として管理し、Issue 単位で作業を進める方法です。これにより、各タスクの目的・背景・進捗が明確になり、チーム内での情報共有やレビューが円滑に行えます。
+- Before starting any work, be sure to create or check an Issue.
+- Always link your branch to an Issue. (e.g., `feat/123-newFeature`)
+- When creating a pull request, please ensure it is linked to an issue. For instructions on linking pull requests to issues, refer to the [official documentation](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue).
 
-- 作業を始める前に、必ず Issue を作成または確認してください。
-- ブランチは必ず Issue と紐付けてください。（例: `feat/123-newFeature`）
-- プルリクエストでは、必ずIssueとリンクさせてください。プルリクエストとIssueの紐付け方法については[公式ドキュメント](https://docs.github.com/ja/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue)を参照してください。
+## About Commits
 
-## コミットについて
-
-- 1 コミットにつき１つの機能追加またはバグ修正だけ含めてください。
-- 文法エラーが無い状態でコミットしてください。
-- コミットメッセージ１行目は `{verb} {summary}` の形式で記述してください。
+- Each commit should contain only one feature addition or bug fix.
+- Commit with no syntax errors.
+- The first line of the commit message should follow the format `{verb} {summary}`.
   - `Add user profile page`
   - `Fix login bug`
   - `Update README.md`
-- コミットメッセージ２行目はそのコミットの詳細を記述してください。
+- The second line of the commit message should describe the details of the commit.
 
-## ブランチ戦略
+## Branch Strategy
 
-### ブランチ命名規則
+### Branch Naming Conventions
 
-| ブランチ種別 | 目的                             | 命名例                                    |
-| ------------ | -------------------------------- | ----------------------------------------- |
-| Feature      | 新機能の実装                     | `feat/{IssueNum}-{featureName}`           |
-| Bugfix       | バグ修正                         | `fix/{IssueNum}-{bugName}`                |
-| Cherry-pick  | 他ブランチから特定コミットを適用 | `cherrypick/{sourceBranch}-{description}` |
-| Sandbox      | 新機能の試験やコンセプト検証     | `sandbox/{commitId}-{userName}`           |
+| Branch Type | Purpose                                       | Example                                   |
+| ----------- | --------------------------------------------- | ----------------------------------------- |
+| Feature     | Implementing new features                     | `feat/{IssueNum}-{featureName}`           |
+| Bugfix      | Fixing bugs                                   | `fix/{IssueNum}-{bugName}`                |
+| Cherry-pick | Applying specific commits from other branches | `cherrypick/{sourceBranch}-{description}` |
+| Sandbox     | Experimenting or prototyping                  | `sandbox/{commitId}-{userName}`           |
 
-- `main`ブランチ：本番用の安定したブランチです。
-- 開発時は、目的に応じて`main`から新しいブランチを作成してください。
+- `main` branch: The stable branch for production.
+- When developing, create a new branch from `main` according to your purpose.
   - Feature: `feat`<br>
-    新機能実装用のブランチです。
+    For implementing new features.
   - Bugfix: `fix`<br>
-    バグ修正用のブランチです。
+    For fixing bugs.
   - Cherry-pick: `cherrypick`<br>
-    特定コミットのみを他ブランチへ適用するためのブランチです。
+    For applying specific commits from other branches.
   - Sandbox: `sandbox`<br>
-    新機能の試験や コンセプト検証用のブランチです。
+    For experimenting or prototyping new features.
 
-### ブランチのマージルール
+### Branch Merging Rules
 
-- 作業ブランチ（`feat`や`fix`など）から`main`ブランチへのプルリクエストを作成してからマージをしてください。
-- `main`ブランチへの直接コミットやマージは禁止です。
-- マージ前に必ずコンフリクトを解消してください。
+- Create a pull request from your working branch (such as `feat` or `fix`) to the `main` branch before merging.
+- Direct commits or merges to the `main` branch are prohibited.
+- Always resolve conflicts before merging.
 
-## コントリビュートの流れ
+## Contribution Flow
 
-1. 作業開始前に、目的や背景を記載した Issue を作成または確認してください。
-2. `main`ブランチから作業用ブランチを作成し、Issue に沿った名前（例: `feat/123-featureName`）にしてください。
-3. 作業が完了したら、`main`をターゲットにプルリクエストを作成してください。
-4. レビュー中のフィードバックには対応し、進捗や変更点は Issue にも反映してください。
-5. メンテナーによる承認後、プルリクエストは`main`ブランチへマージされ、作業ブランチは削除、プルリクエストはクローズされます。
+1. Before starting work, create or check an Issue describing the purpose and background.
+2. Create a working branch from `main` and name it according to the Issue (e.g., `feat/123-featureName`).
+3. When your work is complete, create a pull request targeting `main`.
+4. Address feedback during review and reflect progress or changes in the Issue as well.
+5. After approval by a maintainer, the pull request will be merged into the `main` branch, the working branch will be deleted, and the pull request will be closed.

@@ -1,62 +1,62 @@
-name: バグレポート
-description: バグや問題を報告するためのテンプレートです。
+name: Bug report
+description: Template for reporting bugs and issues.
 title: "[BUG]: "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        バグを報告していただきありがとうございます。
-        以下のテンプレートに従って、できる限り詳しくバグに関する情報を教えてください。
+        Thank you for reporting a bug.
+        Please fill out the template below with as much detail as possible.
   - type: textarea
     id: description
     attributes:
-      label: バグの説明
-      description: バグの内容を詳しく記入してください。スクリーンショットやログがあれば添付してください。
+      label: Bug description
+      description: Describe the bug in detail. Include screenshots or logs if available.
       placeholder: |
-        ボタンを押したときにアプリがクラッシュする。
+        The app crashes when I click the button.
     validations:
       required: true
   - type: textarea
     id: expected_behavior
     attributes:
-      label: 期待する動作
-      description: 期待する動作を記入してください。
+      label: Expected behavior
+      description: Describe what you expected to happen.
       placeholder: |
-        ボタンを押すと設定画面が表示される。
+        Clicking the button should open the settings screen.
     validations:
       required: true
   - type: textarea
     id: steps_to_reproduce
     attributes:
-      label: 再現手順
-      description: バグを再現するための手順を詳しく記入してください。
+      label: Steps to reproduce
+      description: Provide step-by-step instructions to reproduce the bug.
       placeholder: |
-        1. アプリを起動する
-        2. ホーム画面で「設定」ボタンを押す
-        3. 「通知」セクションに移動する
-        4. アプリがクラッシュする
+        1. Open the app
+        2. Go to the home screen
+        3. Click the "Settings" button
+        4. App crashes
     validations:
       required: true
   - type: textarea
     id: environment
     attributes:
-      label: 動作環境
-      description: 動作環境に関する情報を詳しく記入してください。
+      label: Environment
+      description: Provide details about the environment where the bug occurred.
       placeholder: |
         - OS: Windows 10
-        - ブラウザ: Chrome 89.0.4389.90
-        - アプリバージョン: 1.2.3
+        - Browser: Chrome 89.0.4389.90
+        - App version: 1.2.3
     validations:
       required: true
   - type: checkboxes
     id: check_list
     attributes:
-      label: チェックリスト
-      description: バグ報告前に以下の項目を確認してください。
+      label: Checklist
+      description: Please check the following before submitting the bug.
       options:
-        - label: 各項目について、詳しく記入しました。
-        - label: 最新バージョンで同じ問題が発生するか確認しました。
-        - label: 既に報告されているバグではないか確認しました。
+        - label: I have provided detailed information for each item.
+        - label: I have verified the issue occurs on the latest version.
+        - label: I have checked that this issue has not already been reported.
     validations:
       required: true
