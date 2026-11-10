@@ -26,3 +26,4 @@ e.g. This change is not backward compatible.
 - [ ] Verified functionality locally.
 - [ ] Confirmed title and description are appropriate.
 - [ ] Linked related issue(s).
+- [ ] I used AI only in a way that allows me to take full responsibility for the content.

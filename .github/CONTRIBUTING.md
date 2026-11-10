@@ -48,6 +48,15 @@ This project adopts an "Issue-Driven" development approach. Issue-Driven means t
 - Direct commits or merges to the `main` branch are prohibited.
 - Always resolve conflicts before merging.
 
+## About AI Usage
+
+You may use AI tools (e.g., code generation, writing assistance) when contributing, but only if you can take full responsibility for the result.
+
+- Review, understand, and verify all AI-generated content (code, documentation, Issues, pull requests) before submitting it.
+- Do not submit content that you cannot explain or maintain yourself.
+- Make sure AI-generated content does not violate licenses or include confidential information.
+- You, not the AI, are responsible for everything you submit.
+
 ## Contribution Flow
 
 1. Before starting work, create or check an Issue describing the purpose and background.

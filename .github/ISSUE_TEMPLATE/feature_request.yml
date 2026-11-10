@@ -34,5 +34,6 @@ body:
       options:
         - label: I have checked this is not a duplicate of an existing feature.
         - label: The proposal is specific and clearly described.
+        - label: I used AI only in a way that allows me to take full responsibility for the content.
     validations:
       required: true
