@@ -34,6 +34,6 @@ body:
       options:
         - label: 既存の機能と重複していないことを確認しました。
         - label: 提案内容が具体的で明確に記述されていることを確認しました。
-        - label: 内容に責任を持てる形でAIを利用しました。
+        - label: 内容に責任を持てる形で AI を利用しました。
     validations:
       required: true
