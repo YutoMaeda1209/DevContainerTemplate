@@ -22,6 +22,7 @@ facilitating smooth information sharing and reviews within the team.
 
 - Each commit should contain only one feature addition or bug fix.
 - Commit with no syntax errors.
+- Write commit messages in English.
 - The first line of the commit message should follow the format `{verb} {summary}`.
   - `Add user profile page`
   - `Fix login bug`
