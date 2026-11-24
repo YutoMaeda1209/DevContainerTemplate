@@ -17,7 +17,9 @@ e.g. This PR adds a new feature.
 - e.g. Database schema
 
 ## Notes
-<!-- Any additional information, backward compatibility notes, or migration steps. -->
+<!--
+Any additional information, backward compatibility notes, or migration steps.
+-->
 e.g. This change is not backward compatible.
 
 ## Checklist
@@ -26,4 +28,5 @@ e.g. This change is not backward compatible.
 - [ ] Verified functionality locally.
 - [ ] Confirmed title and description are appropriate.
 - [ ] Linked related issue(s).
-- [ ] I used AI only in a way that allows me to take full responsibility for the content.
+- [ ] I used AI only in a way that allows me to take full responsibility\
+  for the content.
