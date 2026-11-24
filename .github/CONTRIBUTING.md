@@ -18,6 +18,10 @@ facilitating smooth information sharing and reviews within the team.
   For instructions on linking pull requests to issues, refer to the\
   [official documentation](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue).
 
+## About Code
+
+- Write code comments in English.
+
 ## About Commits
 
 - Each commit should contain only one feature addition or bug fix.
