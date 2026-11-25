@@ -1,22 +1,17 @@
 # Contribution Guidelines
 
-Please follow these guidelines when contributing, such as reporting bugs,\
-proposing new features, or improving documentation.
+Please follow these guidelines when contributing, such as reporting bugs, proposing new features, or improving documentation.
 
 ## About Issue-Driven Development
 
 This project adopts an "Issue-Driven" development approach.\
-Issue-Driven means that all tasks, including bug fixes, new features, and\
-documentation improvements, are managed as GitHub Issues and work is carried\
-out on a per-Issue basis.\
-This clarifies the purpose, background, and progress of each task,\
-facilitating smooth information sharing and reviews within the team.
+Issue-Driven means that all tasks, including bug fixes, new features, and documentation improvements, are managed as GitHub Issues and work is carried out on a per-Issue basis.\
+This clarifies the purpose, background, and progress of each task, facilitating smooth information sharing and reviews within the team.
 
 - Before starting any work, be sure to create or check an Issue.
 - Always link your branch to an Issue. (e.g., `feat/123-newFeature`)
 - When creating a pull request, please ensure it is linked to an issue.\
-  For instructions on linking pull requests to issues, refer to the\
-  [official documentation](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue).
+  For instructions on linking pull requests to issues, refer to the [official documentation](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue).
 
 ## About Code
 
@@ -57,31 +52,23 @@ facilitating smooth information sharing and reviews within the team.
 
 ### Branch Merging Rules
 
-- Create a pull request from your working branch (such as `feat` or `fix`)\
-  to the `main` branch before merging.
+- Create a pull request from your working branch (such as `feat` or `fix`) to the `main` branch before merging.
 - Direct commits or merges to the `main` branch are prohibited.
 - Always resolve conflicts before merging.
 
 ## About AI Usage
 
-You may use AI tools (e.g., code generation, writing assistance) when\
-contributing, but only if you can take full responsibility for the result.
+You may use AI tools (e.g., code generation, writing assistance) when contributing, but only if you can take full responsibility for the result.
 
-- Review, understand, and verify all AI-generated content\
-  (code, documentation, Issues, pull requests) before submitting it.
+- Review, understand, and verify all AI-generated content (code, documentation, Issues, pull requests) before submitting it.
 - Do not submit content that you cannot explain or maintain yourself.
-- Make sure AI-generated content does not violate licenses or include\
-  confidential information.
+- Make sure AI-generated content does not violate licenses or include confidential information.
 - You, not the AI, are responsible for everything you submit.
 
 ## Contribution Flow
 
 1. Before starting work, create or check an Issue describing the purpose and background.
-2. Create a working branch from `main` and name it according to the Issue\
-   (e.g., `feat/123-featureName`).
+2. Create a working branch from `main` and name it according to the Issue (e.g., `feat/123-featureName`).
 3. When your work is complete, create a pull request targeting `main`.
-4. Address feedback during review and reflect progress or changes in the\
-   Issue as well.
-5. After approval by a maintainer, the pull request will be merged into the\
-   `main` branch, the working branch will be deleted, and the pull request\
-   will be closed.
+4. Address feedback during review and reflect progress or changes in the Issue as well.
+5. After approval by a maintainer, the pull request will be merged into the `main` branch, the working branch will be deleted, and the pull request will be closed.
