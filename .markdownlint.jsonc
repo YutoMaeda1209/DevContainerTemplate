@@ -1,4 +1,4 @@
 {
   // Table rows cannot be wrapped.
-  "MD013": { "tables": false }
+  "MD013": false
 }
